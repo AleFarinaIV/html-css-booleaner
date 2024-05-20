@@ -33,13 +33,17 @@ html {
         .aquaBg{
             background-color: aqua;
         }
+        div:nth-child(2) p{
+            font-size: 10px;
+            margin: 0;
+        }
         p {
             margin-top: 20px;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
         }
         ul {
-            font-size: 17px;
+            font-size: 15px;
             margin: 20px;
             padding-left: 0px;
         }
@@ -53,6 +57,36 @@ html {
             tbody td{
                 width: 73px;
             }
+        }
+    }
+    footer{
+        padding: 5px;
+        h3{
+            margin: 20px 0 10px 0;
+        }
+        .monitor{
+           margin: 0px;
+           background-image: url(../img/monitor.jpg);
+           background-repeat: no-repeat;
+           font-size: 150%;
+           font-weight: normal;
+            width: 290px;
+            height: 215px;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .graph{
+            margin: 0px;
+           background-image: url(../img/graph.jpg);
+           background-repeat: no-repeat;
+           font-size: 150%;
+           font-weight: normal;
+            width: 290px;
+            height: 215px;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
         }
     }
 }
