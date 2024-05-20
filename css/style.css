@@ -20,4 +20,28 @@ html {
             }
         }
     }
+    main {
+        padding: 5px;
+        .yellowBg{
+            background-color: yellow;
+            width: auto;
+            height: 100px;
+        }
+        .blueBg{
+            background-color: rgb(41, 121, 196);
+        }
+        .aquaBg{
+            background-color: aqua;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        ul {
+            font-size: 17px;
+            margin: 20px;
+            padding-left: 0px;
+        }
+    }
 }
