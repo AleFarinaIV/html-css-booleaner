@@ -43,5 +43,16 @@ html {
             margin: 20px;
             padding-left: 0px;
         }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            thead th{
+                color: white;
+                text-align: left;
+            }
+            tbody td{
+                width: 73px;
+            }
+        }
     }
 }
